@@ -1,0 +1,71 @@
+PRACTICE:
+  VERIFICATION:
+    HWID: ""
+
+SETTINGS:
+  JOIN-MESSAGE:
+    ENABLED: false
+    LINES:
+      - ""
+  TABLIST: true
+  SCOREBOARD: true
+  ABILITY: "Nothing" #Nothing | SladeAbility | PandaAbility
+  LEADERBOARDS:
+    GLOBAL: "&6Global ┃ Top 10"
+    PLAYER: "&6%player% ┃ Statistics"
+    KITS: "&6%kittype% ┃ Top 10"
+  LORE-KIT-MENU:
+    - "&6UnRanked"
+    - "&fFights: &6%unranked-fights% &7- &fQueue: &6%unranked-queues%"
+    - ""
+    - "&6Ranked"
+    - "&fFights: &6%ranked-fights% &7- &fQueue: &6%ranked-queues%"
+
+MAP-SELECTOR:
+  NAME: "&6%schematic-name%"
+  ITEM: "POTION"
+  DATA: 8229
+  LORE:
+    - "&fClick to choose the map to play"
+
+TITLES:
+  EVENT: "&7Host a event"
+  MANAGE: "&7Admin Management Menu"
+  KIT-EDITOR: "&7Select a kit to edit"
+  LEADERBOARDS: "&7Statistics"
+  OTHER-PARTIES: "&7Other parties"
+  SPECTATE-MENU: "&7Spectate a match"
+  MAP-SELECTOR: "&7Select a map to play"
+  KILL-EFFECTS: "&7Kill Efects Menu"
+
+
+PROTECTION:
+  MESSAGE: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+  BLOCKED-COMMANDS:
+    - "about"
+    - "bukkit:about"
+    - "bukkit:help"
+    - "bukkit:?"
+    - "bukkit:me"
+    - "bukkit:pl"
+    - "bukkit:plugins"
+    - "bukkit:ver"
+    - "bukkit:version"
+    - "icanhasbukkit"
+    - "info"
+    - "?"
+    - "pl"
+    - "plugins"
+    - "ver"
+    - "version"
+    - "me"
+    - "say"
+
+WORLD:
+  SPAWN:
+    WORLD: world
+    X: 0
+    Y: 100
+    Z: 0
+    YAW: 0
+    PITCH: 0

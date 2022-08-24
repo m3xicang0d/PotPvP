@@ -1,0 +1,281 @@
+##########################################
+#                                        #
+#           LOBBY ITEMS HOTBAR           #
+#                                        #
+##########################################
+JOIN-UNRANKED:
+  ENABLED: true
+  NAME: "&6Join Unranked Queue &7(Right Click)"
+  MATERIAL: "IRON_SWORD"
+  DATA: 0
+  SLOT: 0
+  LORE:
+    - "&7Right click to join unranked mode"
+JOIN-RANKED:
+  ENABLED: true
+  NAME: "&6Join Ranked Queue &7(Right Click)"
+  MATERIAL: "DIAMOND_SWORD"
+  DATA: 0
+  SLOT: 1
+  LORE:
+    - "&7Right click to join ranked mode"
+LEADERBOARDS:
+  ENABLED: true
+  NAME: "&6Leaderboards &7(Right Click)"
+  MATERIAL: "EMERALD"
+  DATA: 0
+  SLOT: 2
+  LORE:
+    - "&7Right click to open your stats"
+PRACTICE-SETTINGS:
+  ENABLED: true
+  NAME: "&6Pratice Settings &7(Right Click)"
+  MATERIAL: "ANVIL"
+  DATA: 0
+  SLOT: 3
+  LORE:
+    - "&7Right click to open settings practice"
+KIT-EDITOR:
+  ENABLED: true
+  NAME: "&6Kit Editor &7(Right Click)"
+  MATERIAL: "BOOK"
+  DATA: 0
+  SLOT: 4
+  LORE:
+    - "&7Right click to edit kits"
+PARTY-CREATE:
+  ENABLED: true
+  NAME: "&6Party Create &7(Right Click)"
+  MATERIAL: "NAME_TAG"
+  DATA: 0
+  SLOT: 5
+  LORE:
+    - "&7Right click to create party"
+SPECTATOR-MODE-ON:
+  ENABLED: true
+  NAME: "&6Spectactor Mode ON &7(Right Click)"
+  MATERIAL: "REDSTONE_TORCH_ON"
+  DATA: 0
+  SLOT: 6
+  LORE:
+    - "&7Right click to enable spectate mode"
+HOST-EVENTS:
+  ENABLED: true
+  NAME: "&6Host Events &7(Right Click)"
+  MATERIAL: "EYE_OF_ENDER"
+  DATA: 1
+  SLOT: 7
+  LORE:
+    - "&7Right click to host events"
+##########################################
+#                                        #
+#       LOBBY ITEMS IN-QUEUE HOTBAR      #
+#                                        #
+##########################################
+LEAVE-UNRANKED:
+  ENABLED: true
+  NAME: "&cLeave Unranked Queue &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 1
+  SLOT: 0
+  LORE:
+    - "&7Right click to leave unranked queue"
+LEAVE-RANKED:
+  ENABLED: true
+  NAME: "&cLeave Ranked Queue &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 1
+  SLOT: 0
+  LORE:
+    - "&7Right click to leave ranked queue"
+
+##########################################
+#                                        #
+#     LOBBY AND REMATCH ITEMS HOTBAR     #
+#                                        #
+##########################################
+SENT-REMATCH:
+  ENABLED: true
+  NAME: "&6Sent Rematch &7(Right Click)"
+  MATERIAL: "EMERALD"
+  DATA: 0
+  SLOT: 2
+  LORE:
+    - "&7Right click to sent rematch"
+REQUEST-REMATCH:
+  ENABLED: true
+  NAME: "&6Request Rematch &7(Right Click)"
+  MATERIAL: "DIAMOND"
+  DATA: 0
+  SLOT: 2
+  LORE:
+    - "&7Right click to request rematch"
+ACCEPT-REMATCH:
+  ENABLED: true
+  NAME: "&6Accept Rematch &7(Right Click)"
+  MATERIAL: "EMERALD"
+  DATA: 0
+  SLOT: 2
+  LORE:
+    - "&7Right click to accept rematch"
+
+##########################################
+#                                        #
+#        PARTY MODE ITEMS HOTBAR         #
+#                                        #
+##########################################
+LEAVE-PARTY:
+  ENABLED: true
+  NAME: "&cParty Leave &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 1
+  SLOT: 8
+  LORE:
+    - "&7Right click to leave party"
+ASSING-CLASSES-PLAYER:
+  ENABLED: true
+  NAME: "&6Select HCF Kits &7(Right Click)"
+  MATERIAL: "ITEM_FRAME"
+  DATA: 0
+  SLOT: 1
+  LORE:
+    - "&7Right click to assing hcf clases"
+ASSING-CLASSES-LEADER:
+  ENABLED: true
+  NAME: "&6Select HCF Kits &7(Right Click)"
+  MATERIAL: "ITEM_FRAME"
+  DATA: 0
+  SLOT: 1
+  LORE:
+    - "&7Right click to assing hcf clases"
+PARTY-TEAM-SPLIT:
+  ENABLED: true
+  NAME: "&3Team Split &7(Right Click)"
+  MATERIAL: "DIAMOND_AXE"
+  DATA: 0
+  SLOT: 3
+  LORE:
+    - "&7Right click to start party split"
+PARTY-TEAM-FFA:
+  ENABLED: true
+  NAME: "&3Team FFA &7(Right Click)"
+  MATERIAL: "IRON_AXE"
+  DATA: 0
+  SLOT: 4
+  LORE:
+    - "&7Right click to start party split"
+OTHER-PARTIES:
+  ENABLED: true
+  NAME: "&bOther Parties &7(Right Click)"
+  MATERIAL: "SKULL_ITEM"
+  DATA: 0
+  SLOT: 4
+  LORE:
+    - "&7Right click to view other parties"
+PARTY-KIT-EDITOR:
+  ENABLED: true
+  NAME: "&4Kit Editor &7(Right Click)"
+  MATERIAL: "BOOK"
+  DATA: 0
+  SLOT: 7
+  LORE:
+    - "&7Right click to edit kits"
+##########################################
+#                                        #
+#         SPECTATOR ITEMS HOTBAR         #
+#                                        #
+##########################################
+SPECTATOR-MODE-OFF:
+  ENABLED: true
+  NAME: "&6Spectactor Mode OFF &7(Right Click)"
+  MATERIAL: "LEVER"
+  DATA: 0
+  SLOT: 6
+  LORE:
+    - "&7Right click to enable spectate mode"
+SPECTATOR-RANDOM:
+  ENABLED: true
+  NAME: "&6Spectator Random &7(Right Click)"
+  MATERIAL: "COMPASS"
+  DATA: 0
+  SLOT: 3
+  LORE:
+    - "&7Right click to spectate a random match"
+SPECTATOR-MENU:
+  ENABLED: true
+  NAME: "&6Spectate Menu &7(Right Click)"
+  MATERIAL: "PAPER"
+  DATA: 0
+  SLOT: 4
+  LORE:
+    - "&7Right click to open spectate menu"
+UNFOLLOW-MODE:
+  ENABLED: true
+  NAME: "&6Stop Following &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 1
+  SLOT: 5
+  LORE:
+    - "&7Right click to stop following"
+
+##########################################
+#                                        #
+#  SPECTATOR MODE IN PARTY ITEMS HOTBAR  #
+#                                        #
+##########################################
+RETURN-LOBBY:
+  ENABLED: true
+  NAME: "&cReturn to lobby &7(Right Click)"
+  MATERIAL: "FLINT_AND_STEEL"
+  DATA: 1
+  SLOT: 8
+  LORE:
+    - "&7Right click to leave party"
+SPECTATOR-LEAVE-PARTY:
+  ENABLED: true
+  NAME: "&cLeave Party &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 1
+  SLOT: 8
+  LORE:
+    - "&7Right click to leave party"
+SPECTATOR-VIEW-INVENTORY:
+  ENABLED: true
+  NAME: "&6View Inventory &7(Right Click)"
+  MATERIAL: "BOOK"
+  DATA: 0
+  SLOT: 0
+  LORE:
+    - "&7Right click to leave party"
+SPECTATOR-SHOW-SPECTATORS:
+  ENABLED: true
+  NAME: "&aShow Spectators &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 8
+  SLOT: 1
+  LORE:
+    - "&7Right click to show spectators"
+SPECTATOR-HIDE-SPECTATORS:
+  ENABLED: true
+  NAME: "&7Hide Spectators &7(Right Click)"
+  MATERIAL: "INK_SACK"
+  DATA: 10
+  SLOT: 1
+  LORE:
+    - "&7Right click to hide spectators"
+SPECTATOR-MENU-PLAYERS:
+  ENABLED: true
+  NAME: "&6Spectate Menu &7(Right Click)"
+  MATERIAL: "PAPER"
+  DATA: 0
+  SLOT: 2
+  LORE:
+    - "&7Right click to view menu players"
+SPECTATOR-RANDOM-MATCH:
+  ENABLED: true
+  NAME: "&6Spectate Match &7(Right Click)"
+  MATERIAL: "COMPASS"
+  DATA: 0
+  SLOT: 3
+  LORE:
+    - "&7Right click to spectate random match"

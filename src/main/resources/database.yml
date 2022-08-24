@@ -1,0 +1,12 @@
+MONGO:
+  HOST: localhost
+  PORT: 27017
+  DATABASE: PotPvP
+
+LOCALREDIS:
+  HOST: localhost
+  PORT: 6379
+
+BACKBONEREDIS:
+  HOST: localhost
+  PORT: 6379

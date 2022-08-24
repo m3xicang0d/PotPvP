@@ -1,0 +1,61 @@
+HOLOGRAMS:
+  UPDATE-TIME: 20 # Seconds
+  GLOBAL:
+    LINES:
+      - "&7&m--------------------"
+      - "&6&lTop Global ELO"
+      - ""
+      - "&6#1 &f%global-top-1% &7(%elo-global-1%)"
+      - "&6#2 &f%global-top-2% &7(%elo-global-2%)"
+      - "&6#3 &f%global-top-3% &7(%elo-global-3%)"
+      - "&6#4 &f%global-top-4% &7(%elo-global-4%)"
+      - "&6#5 &f%global-top-5% &7(%elo-global-5%)"
+      - "&6#6 &f%global-top-6% &7(%elo-global-6%)"
+      - "&6#7 &f%global-top-7% &7(%elo-global-7%)"
+      - "&6#8 &f%global-top-8% &7(%elo-global-8%)"
+      - "&6#9 &f%global-top-9% &7(%elo-global-9%)"
+      - "&6#10 &f%global-top-10% &7(%elo-global-10%)"
+      - ""
+      - "&fNext update in&7: %seconds%"
+      - "&7&m--------------------"
+
+  NoDebuff:
+    LINES:
+      - "&7&m--------------------"
+      - "&6&lTop %kittype% ELO"
+      - ""
+      - "&6#1 &f%top-1% &7(%elo-1%)"
+      - "&6#2 &f%top-2% &7(%elo-2%)"
+      - "&6#3 &f%top-3% &7(%elo-3%)"
+      - "&6#4 &f%top-4% &7(%elo-4%)"
+      - "&6#5 &f%top-5% &7(%elo-5%)"
+      - "&6#6 &f%top-6% &7(%elo-6%)"
+      - "&6#7 &f%top-7% &7(%elo-7%)"
+      - "&6#8 &f%top-8% &7(%elo-8%)"
+      - "&6#9 &f%top-9% &7(%elo-9%)"
+      - "&6#10 &f%top-10% &7(%elo-10%)"
+      - ""
+      - "&fNext update in&7: %seconds%"
+      - "&7&m--------------------"
+  Debuff:
+    LINES:
+      - "&7&m--------------------"
+      - "&6&lTop %kittype% ELO"
+      - ""
+      - "&6#1 &f%top-1% &7(%elo-1%)"
+      - "&6#2 &f%top-2% &7(%elo-2%)"
+      - "&6#3 &f%top-3% &7(%elo-3%)"
+      - "&6#4 &f%top-4% &7(%elo-4%)"
+      - "&6#5 &f%top-5% &7(%elo-5%)"
+      - "&6#6 &f%top-6% &7(%elo-6%)"
+      - "&6#7 &f%top-7% &7(%elo-7%)"
+      - "&6#8 &f%top-8% &7(%elo-8%)"
+      - "&6#9 &f%top-9% &7(%elo-9%)"
+      - "&6#10 &f%top-10% &7(%elo-10%)"
+      - ""
+      - "&fNext update in&7: %seconds%"
+      - "&7&m--------------------"
+
+
+#Dont touch
+PLACES: []

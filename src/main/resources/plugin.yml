@@ -1,0 +1,11 @@
+name: Practice
+version: 2.0
+main: net.frozenorb.potpvp.PotPvPSI
+authors:
+  - JesusMX
+  - Ukry
+depend:
+  - ProtocolLib
+  - VoidWorld
+loadbefore:
+  - VortexPearls

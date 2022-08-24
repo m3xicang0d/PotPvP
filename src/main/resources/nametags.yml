@@ -1,0 +1,19 @@
+NAMETAGS:
+  Staff:
+    TAG: "&b"
+    PERM: "potpvp.nametag.staff"
+  Savage:
+    TAG: "&6"
+    PERM: "potpvp.nametag.savage"
+  King:
+    TAG: "&4"
+    PERM: "potpvp.nametag.king"
+  Lion:
+    TAG: "&e"
+    PERM: "potpvp.nametag.lion"
+  Basic:
+    TAG: "&2"
+    PERM: "potpvp.nametag.basic"
+  Default:
+    TAG: "&a"
+    PERM: "potpvp.nametag.default"

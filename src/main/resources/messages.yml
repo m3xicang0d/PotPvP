@@ -1,0 +1,92 @@
+MATCH:
+  STARTED:
+    ENABLED: true
+    MESSAGE:
+      - "&e[&c*&e] &6Butterfly clicking may result in a ban."
+
+PARTY:
+  COMMAND:
+    - "&7--------------------------------------------------"
+    - "&6&lParty Commands"
+    - ""
+    - "&6/p announce &7- to announce your party"
+    - "&6/p create &7- &fto create a party"
+    - "&6/p invite <player> &7- &fto invite a player"
+    - "&6/p join <player> &7- &fto join party"
+    - "&6/p leave &7- &fto leave party"
+    - "&6/p info <player> &7- &fto see info player"
+    - "&6/p kick <player> &7- &fto kick a player"
+    - "&6/p leader <player> &7- &fTo pass the leader to another person"
+    - "&6/p open &7- &fto open party"
+    - "&6/p open &7- &fto close the party to the other people."
+    - "&6/p disband &7- to disband all party"
+    - "&7--------------------------------------------------"
+
+  CREATE: "&eCreated a new party."
+  IN-PARTY: "&cYou are already in a party."
+  NO-IN-PARTY: "&cYou are not in a party."
+  NO-LEADER-PARTY: "&cYou are not the leader of your party."
+
+  ANNOUNCE:
+    MESSAGE: "&eYour party is now &aopen&e, type &c/p announce &eor &cclick here to &eannounce it on the chat"
+    HOVER: "&cClick here to &eannounce"
+
+  STATUS:
+    LOCKED: "&eYour party is now &clocked&e."
+    ALREADY-LOCKED: "&cYour party is already locked."
+    OPEN: "&eYour party is now &copen&e."
+    ALREADY-OPEN: "&cYour party is already open."
+
+  KICK:
+    YOURSELF: "&cYou cannot kick yourself."
+    NOT-YOUR-PARTY: "&c%player% isn't in your party."
+
+  SPECTATORS:
+    SHOW: "&aNow showing other spectators."
+    HIDE: "&cNow hiding other spectators."
+    COOLDOWN: "&cPlease wait before doing this again!"
+
+  VIEW-INVENTORY:
+    OTHER-TEAM: "%player% is not on your team."
+    YOUR-TEAM: "&fOpening inventory of: &b%player%"
+
+DUEL:
+  YOURSELF: "&cYou can't accept a duel from yourself!"
+  SEND-DUEL-PLAYER: "&b%player% &ehas sent you a &b%kit-display-name% &eduel."
+  SEND-DUEL-SUCCESSFULLY: "&eSuccessfully sent a &b%kit-display-name% &eduel invite to &b%player%&e."
+  OTHER-PARTY-NO-RECEIVE: "&cYour party doesn't have a duel invite from %leader-name%'s party."
+  DONT-HAVE-INVITE-DUEL: "&cYou don't have a duel invite from %player%."
+  YOUR-PARTY-DONT-HAVE-DUEL: "&cYour party doesn't have a duel invite from %player%'s party."
+  NEED-PARTY: "&cYou must create a party to duel %player%'s party."
+  NEED-LEAVE-PARTY: "&cYou must leave your party to duel %player%."
+
+SPECTATOR:
+  PLAYER-MESSAGE: "%player% &eis now spectating."
+
+EVENTS:
+  NO-PERMISSIONS: ""
+
+TOURNAMENT:
+  WAITING-PLAYERS:
+    - ""
+    - "&6(Tournament) &f%kittype% &fhas started type &6/join &fto play &6(%teamsize-requiredteams%)"
+    - ""
+
+ERROR:
+  STARTING-MATCH: "&cThere was an error starting the match, please contact an admin."
+
+RALLY:
+  EXPIRED: "&aYour rally has expired"
+  POINT: "&3has updated the team's rally point! This will last for 3m"
+
+EVENT:
+  WIN-MESSAGE:
+    - "&7&m--------------------------------------------------"
+    - "&7███████"
+    - "&7█&a█████&7█     %game-name% Event Winner"
+    - "&7█&a█&7█████"
+    - "&7█&a████&7██     &a%winner% won the event!"
+    - "&7█&a█&7█████"
+    - "&7█&a█████&7█     &fOpponents defeated: &4%defeated%"
+    - "&7███████"
+    - "&7&m--------------------------------------------------"
