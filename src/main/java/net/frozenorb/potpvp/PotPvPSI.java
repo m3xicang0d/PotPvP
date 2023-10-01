@@ -273,13 +273,13 @@ public final class PotPvPSI extends JavaPlugin {
         }
     }
 
-    private void setupRedis() {
-        this.redis = new Redis();
-        RedisCredentials local = new RedisCredentials(databaseConfig.getString("LOCALREDIS.HOST"), databaseConfig.getInt("LOCALREDIS.PORT"), "", 0);
-        RedisCredentials back = new RedisCredentials(databaseConfig.getString("BACKBONEREDIS.HOST"), databaseConfig.getInt("BACKBONEREDIS.PORT"), "", 0);
-        this.redis.load(back, local);
-        this.getServer().getConsoleSender().sendMessage(CC.translate("&7[&6Practice&7] &aRedis started successfully"));
-    }
+private void setupRedis() {
+    this.redis = new Redis();
+    RedisCredentials local = new RedisCredentials(databaseConfig.getString("LOCALREDIS.HOST"), databaseConfig.getInt("LOCALREDIS.PORT"), databaseConfig.getString("LOCALREDIS.PASSWORD"), databaseConfig.getInt("LOCALREDIS.DATABASE"));
+    RedisCredentials back = new RedisCredentials(databaseConfig.getString("BACKBONEREDIS.HOST"), databaseConfig.getInt("BACKBONEREDIS.PORT"), databaseConfig.getString("BACKBONEREDIS.PASSWORD"), databaseConfig.getInt("BACKBONEREDIS.DATABASE"));
+    this.redis.load(back, local);
+    this.getServer().getConsoleSender().sendMessage(CC.translate("&7[&6Practice&7] &aRedis started successfully"));
+}
 
     private void setupMongo() {
         mongoClient = new MongoClient(new ServerAddress(databaseConfig.getString("MONGO.HOST"), databaseConfig.getInt("MONGO.PORT")));
